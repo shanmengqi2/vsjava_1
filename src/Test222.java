@@ -26,6 +26,7 @@ public class Test222 {
                 //b,10,20,30本质上是10的正整数倍，我们只要除以10求余，余数为0就满足条件
                 
                 System.out.println("Anniversary Party!!");
+                
                 if(age == 100){
                     System.out.println("Congratulations\nCongratulations\nCongratulations");
         }

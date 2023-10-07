@@ -16,9 +16,9 @@ Congratulations!
 You guessed 3 times .
          */
 
-    String inputName;
-    int guessTimes;
-    boolean guessRight = false;
+    String inputName = "";
+    int guessTimes = 0;
+    boolean guessRight = true;
 
     Scanner scan = new Scanner(System.in);
 
@@ -26,10 +26,20 @@ You guessed 3 times .
     
 
 
-    while (guessRight && inputName.equalsIgnoreCase("stop")) {
+    while (!guessRight && inputName.equalsIgnoreCase("stop")) {
 
         System.out.println("guess a name");
         inputName = scan.nextLine();
+
+        if(inputName.equalsIgnoreCase("Emma")){
+            System.out.println("Congratulations");
+            guessRight = true;
+        }
+        else {
+            guessRight = false;
+        }
+
+        guessTimes = guessTimes + 1;
 
 
     }

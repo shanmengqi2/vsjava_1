@@ -41,7 +41,7 @@ You guessed 3 times .
 
 
         if(!guessName.equalsIgnoreCase("stop")){
-            
+
             guessTimes = guessTimes + 1;
 
         }
