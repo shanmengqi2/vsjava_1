@@ -31,7 +31,7 @@ public class SyntaxoftheMethods {
             result = num1 + num2;
 
         }
-        else if(cal.equalsIgnoreCase("substraction"))
+        else if(cal.equalsIgnoreCase("subtraction"))
         {
             result = num1 - num2;
         }
