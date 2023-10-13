@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "src",
         "lucky7",
-        "ArrayList"
+        "ArrayList",
+        "MethodExercises"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
